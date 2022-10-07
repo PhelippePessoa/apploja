@@ -25,7 +25,7 @@ public class Empresa implements Serializable{
 	private String nome;
 	private String cnpj;
 	private String responsavel;
-	private String representantes;
+	private String representante;
 	private String telefone;
 	private String email;
 	private String cep;
@@ -60,11 +60,11 @@ public class Empresa implements Serializable{
 	public void setResponsavel(String responsavel) {
 		this.responsavel = responsavel;
 	}
-	public String getRepresentantes() {
-		return representantes;
+	public String getRepresentante() {
+		return representante;
 	}
-	public void setRepresentantes(String representantes) {
-		this.representantes = representantes;
+	public void setRepresentante(String representantes) {
+		this.representante = representantes;
 	}
 	public String getTelefone() {
 		return telefone;
